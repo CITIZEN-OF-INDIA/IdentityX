@@ -27,10 +27,7 @@ backend/dataset/
 # Embeddings Database
 # =========================
 
-backend/database/faces.pkl
 
-# Optional if you create more databases later
-backend/database/*.pkl
 
 # =========================
 # Logs
