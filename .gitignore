@@ -1,0 +1,67 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+venv/
+.venv/
+env/
+
+# =========================
+# FastAPI Uploads
+# =========================
+
+backend/uploads/
+
+# =========================
+# Dataset
+# =========================
+
+backend/dataset/
+
+# =========================
+# Embeddings Database
+# =========================
+
+backend/database/faces.pkl
+
+# Optional if you create more databases later
+backend/database/*.pkl
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.local
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# Node / React
+# =========================
+
+frontend/node_modules/
+
+frontend/dist/
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
