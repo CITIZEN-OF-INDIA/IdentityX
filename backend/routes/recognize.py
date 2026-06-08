@@ -23,13 +23,10 @@ async def recognize_faces(
         image
     )
 
-    recognized_names = list(
-        {
-            face["name"]
-            for face in results
-            if face["name"] != "Unknown"
-        }
-    )
+    recognized_names = [
+        face["name"]
+        for face in results
+    ]
 
     return {
         "faces": results,
